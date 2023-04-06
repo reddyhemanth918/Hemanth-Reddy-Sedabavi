@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time countdown</title>
+    <h1 style="text-align:center">Let's Start Celebrations</h1>
+    <style>
+        body {
+            background-color: rgb(0, 220, 15);
+        }
+
+        #countdown {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5rem;
+            color: white;
+        }
+
+        .img {
+            position: absolute;
+            top: 10%;
+            left: 25%;
+            bottom: 10%;
+            right: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="countdown"></div>
+    <div class="img" id="image" style="display:none">
+        <img src="C:\Users\hemanth.sedabavi\Downloads\gift.gif" alt="firewallimage" style="width:90%; height:90%" />
+    </div>
+
+    <script>
+        var seconds = 30;
+
+        function countdown() {
+            seconds--;
+            document.getElementById("countdown").innerHTML = seconds;
+            if (seconds == 0) {
+                document.getElementById("countdown").style.display = "none";
+                document.getElementById("image").style.display = "block";
+            } else {
+                setTimeout(countdown, 1000);
+            }
+        }
+
+        countdown();
+    </script>
+</body>
+</html>

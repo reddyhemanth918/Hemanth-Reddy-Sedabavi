@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer</title>
+  <style>
+    #timer {
+      background-color: chartreuse;
+      font-size: 3rem;
+      text-align: center;
+      margin: 1rem auto;
+      width: 200px;
+      height: 100px;
+      line-height: 100px;
+      border: 2px solid black;
+      border-radius: 10px;
+    }
+    button {
+      text-align: center;
+      font-size: 1rem;
+      padding: 1rem;
+      margin: 1rem;
+      border: 2px solid black;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Timer</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td><div id="timer">00:00:00</div></td>
+          <td>
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+          </td>
+        </tr>
+    </table>
+  
+  <script>
+    let seconds = 0;
+    let minutes = 0;
+    let hours = 0;
+    let timer = document.getElementById('timer');
+    let intervalId;
+
+    function startTimer() {
+        setInterval(function() {
+      seconds++;
+
+      if (seconds == 60) {
+        seconds = 0;
+        minutes++;
+      }
+
+      if (minutes == 60) {
+        minutes = 0;
+        hours++;
+      }
+
+      let time = (hours < 10 ? "0" + hours : hours) + ":" 
+        + (minutes < 10 ? "0" + minutes : minutes) + ":" 
+        + (seconds < 10 ? "0" + seconds : seconds);
+
+      timer.innerHTML = time;
+        }, 1000);
+    }
+    function stopTimer() {
+      clearInterval(intervalId);
+    }
+
+    document.getElementById("startBtn").addEventListener("click", startTimer);
+    document.getElementById("stopBtn").addEventListener("click", stopTimer);
+  </script>
+</body>
+</html>
