@@ -1,0 +1,13 @@
+<h1>{{title}}
+</h1><br>
+<ul class="topview">
+    <div><img src="http://localhost/box.png" class="img1"> </div>
+    <li><a href="#Contact US">Contact US</a></li>
+    <li><a href="#Pricing">Pricing</a></li>
+    <li><a href="#Product">Product</a></li>
+    <li><a href="#home">Home</a></li>
+</ul>
+<app-about></app-about>
+<h3>OUR PRODUCT</h3>
+<app-service-box *ngFor="let x of services;let y=index" 
+[title]="x" [description]="descriptions[y]"></app-service-box>
