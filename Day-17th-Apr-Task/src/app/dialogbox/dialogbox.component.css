@@ -1,0 +1,12 @@
+:host{
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+    background-image:url("http://localhost/b.jpg") ;
+   
+}
+.head{
+    display:flex;
+    justify-content:center;
+    color: white; 
+}
