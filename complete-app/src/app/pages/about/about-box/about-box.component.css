@@ -1,0 +1,33 @@
+.about-box {
+    background-color: #9efd72;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 25%;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .message {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .type {
+    font-size: 14px;
+    color: rgb(234, 117, 15);
+    margin-bottom: 5px;
+  }
+  
+  .id {
+    font-size: 14px;
+    color: black;
+  }
+  
