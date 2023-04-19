@@ -1,8 +1,8 @@
 .about-box {
-    background-color: #9efd72;
+    background-color: rgb(213, 210, 210);
     border: 3px solid black;
     padding: 5px;
-    margin: 5px;
+    margin: 15px;
     text-align: center;
     width: 50%;
     position: relative;
@@ -13,6 +13,7 @@
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
+    text-align: left;
   }
   
   .message {
@@ -22,12 +23,8 @@
   
   .type {
     font-size: 14px;
-    color: rgb(234, 117, 15);
+    color: rgb(59, 58, 58);
     margin-bottom: 5px;
-  }
-  
-  .id {
-    font-size: 14px;
-    color: black;
+    text-align: right;
   }
   
