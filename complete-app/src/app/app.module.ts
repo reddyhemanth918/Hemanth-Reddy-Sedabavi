@@ -14,6 +14,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { CarrersBoxComponent } from './pages/carrers/carrers-box/carrers-box.component';
 import { ServiceBoxComponent } from './pages/home/service-box/service-box.component';
 import { AboutBoxComponent } from './pages/about/about-box/about-box.component';
+import { QuoteitPipe } from './pipes/quoteit.pipe';
+import { TypefilterPipe } from './pipes/typefilter.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -27,14 +30,18 @@ import { AboutBoxComponent } from './pages/about/about-box/about-box.component';
     ReachusComponent,
     CarrersBoxComponent,
     ServiceBoxComponent,
-    AboutBoxComponent
+    AboutBoxComponent,
+    QuoteitPipe,
+    TypefilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

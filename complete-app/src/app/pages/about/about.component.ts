@@ -8,11 +8,20 @@ import { FeedbacksService } from 'src/app/services/feedbacks.service';
 })
 export class AboutComponent {
   feedbackslist:any;
-  constructor(private rs:FeedbacksService){
-    this.rs.getServices().subscribe(
+  types:string[]=[
+    "All",
+    "Branding and Communication",
+    "Inbound & Content Marketing",
+    "Film & Webinar","Digital Marketing",
+    "ECommerce & Websites",
+    "Market Analysis"
+  ]
+  selected:string="All"
+  constructor(private fs:FeedbacksService){
+    this.fs.getServices().subscribe(
       {
         next:(data:any)=> this.feedbackslist=data,
-        error:()=>this.feedbackslist=[]
+
       }
     )
   }
