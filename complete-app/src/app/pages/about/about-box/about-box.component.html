@@ -1,0 +1,10 @@
+<mat-card class="about-box">
+    <mat-card-header>
+      <mat-card-title class="name"><h3>{{feedbacks.name |uppercase }} said ...</h3></mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="txt">
+      <p class="message">{{feedbacks.message | quoteit}}</p>
+      <mat-divider></mat-divider>
+      <p class="type">{{feedbacks.type}}</p>
+    </mat-card-content>
+</mat-card>
