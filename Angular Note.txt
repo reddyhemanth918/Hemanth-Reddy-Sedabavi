@@ -1,0 +1,94 @@
+we can't connect angular with database.
+backend application provides data to angular.
+--------------------------------------------------------------
+SPA
+Client side [only] - [brower,desktop,mobile]
+No Server side
+No connection with database directly
+responsive SPA-
+SPA - [one HTML + many CSS and JS files]
+
+we develop angular using typescript but we don't send typescript to the brower
+
+we need Node Js for angular Development
+--------------------------------------------------------------
+Multipage Applications
+
+   [HTML
+   CSS
+   And Javascript ]
+   
+   W3C - World wide web Consortium
+        
+		HTML
+		CSS
+		
+	HTML - 5 version
+	CSS - 3 version  and Added responsive design
+
+---------------------------------------------------------------
+@Media Queries in CSS used for responsive design
+---------------------------------------------------------------
+SPA?
+  To develop SPA:
+
+    React js
+	Node js (It a Platform to run the javascript code)
+	vue js
+	angular js
+---------------------------------------------------------------
+EMCA script (european computer manufacturers association)
+
+    es5 - 
+	2015 -es6, es2015-> es2023
+	
+---------------------------------------------------------------
+Javascript??
+   
+     # Is Javascript meant to run only on brower?
+	 [yes, Once upon a time]
+----------------------------------------------------------------
+Javascript - 
+
+    Multi paradigm Programming language
+----------------------------------------------------------------
+
+c,c++,c#, python, Java, Javascript
+
+complied - c, java , c#
+
+Interpreted - python, Javascript-Swift, Kotlin
+
+   
+    Andriod? 
+        Andriod -> [SDK] - Kotlin, Java
+        IOS - Swift, Objective C 
+-----------------------------------------------------------------
+HTML + CSS - Skills
+
+1. Create a button on the screen
+        [
+         The button can created using
+         1. button tag
+         2. anchor tag
+         3. div	
+        ]
+    Note: Pleasing look and feel is expected
+
+2. when you click the button A pop up window need to apper
+  [The pop window is a division which is hidden by default
+   which appears only on button click]
+
+        in the division create a form with text field for 
+        firstname, lastname, city number field for age and experience
+        dob - date field
+        about you - text area
+        gender - radio button
+        skills - checkbox [possible skills [c++, java, python...]
+
+    Note: handle nice look and feel for the form elements		
+------------------------------------------------------------------------
+
+Blocking/Synchronous    -   [Java, C++, C# ]
+
+NonBlocking/ Asynchronous   -  [Javascript]

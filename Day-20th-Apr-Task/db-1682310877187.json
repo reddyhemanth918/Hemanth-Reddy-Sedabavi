@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 45,
+      "name": "Hemanth",
+      "price": 2999,
+      "image": "i1.jpg",
+      "type": "Electronics",
+      "Description": "This is a perfect collaboration. Looking forward to work again."
+    },
+    {
+      "id": 87436,
+      "name": "Ekanth",
+      "price": 3499,
+      "image": "s1.jpg",
+      "type": "Cosmetics",
+      "Description": "This was an excellent project experience. Budget was too good."
+    },
+    {
+      "id": 6347,
+      "name": "Naveen",
+      "price": 3200,
+      "image": "h1.jpg",
+      "type": "Groceries",
+      "Description": "Superb to Work with you. Looking forward to collaborate more."
+    },
+    {
+      "id": 46287,
+      "name": "Charan",
+      "price": 4200,
+      "image": "r1.jpg",
+      "type": "Books",
+      "message": "Content Marketing was so so good."
+    },
+    {
+      "id": 4882,
+      "name": "Sreekanth",
+      "price": 2300,
+      "image": "h2.jpg",
+      "type": "Groceries",
+      "Description": "Best in this area of work"
+    },
+    {
+      "id": 9282,
+      "name": "Suresh",
+      "price": 170000,
+      "image": "i2.jpg",
+      "type": "Electronics",
+      "Description": "Digital Marketing is challenging but it was done so clean here."
+    },
+    {
+      "id": 815,
+      "name": "Shyam",
+      "price": 3245,
+      "image": "r2.jpg",
+      "type": "Books",
+      "Description": "This is the place for Digital Marketing"
+    },
+    {
+      "id": 7442,
+      "name": "Navya",
+      "price": 1600,
+      "type": "cosmetics",
+      "image": "s2.jpg",
+      "Description": "My Ecommerce business picked up because of these guyz"
+    },
+    {
+      "id": 2446,
+      "name": "Nandini",
+      "price": 2500,
+      "image": "h3.jpg",
+      "type": "Groceries",
+      "Description": "These people are specialist in Ecommerce space"
+    },
+    {
+      "id": 8615,
+      "name": "Harthick",
+      "price": 3000,
+      "image": "i3.jpg",
+      "type": "Electronics",
+      "Description": "Market analysis is best done here"
+    }
+  ]
+}

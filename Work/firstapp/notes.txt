@@ -1,0 +1,61 @@
+Attribute Directives
+
+   Attributes directives changes the behaviour of
+   the target element [ 
+   Style, data ]
+   
+   there are three kinds of attribute directives
+   
+       input directives
+	       - Changes behaviour of target element
+		   - usually these directives are enclosed within []
+		   - It receives value from the right side and usually
+		   in the right side we mention objects
+		   
+		    <h1 [sample]="test"></h1>
+			
+			here sample is input directives
+			test is input value [variable]
+			note: test is not string , test is a variable
+			
+			<h1 sample = "test"></h1>
+			
+			in this case, sample is input directives
+			and test is not a variable it is a string
+			
+    inbuilt input directives: ngClass,ngStyle,style, routerLink,
+    formControlName....
+			
+			
+
+	   output directives
+
+        - output directives are event listeners
+        - upon event they will call the functions that
+        are mentioned in the right side
+        - output directives are enclosed with paranthesis ()
+
+        some inbuilt output directives: click, change, keyup,keydown
+        , mouseover
+
+        ex: <button (click)="fun()"></button>
+
+	   input output directives
+  
+
+     It works bidirectional
+     it does work of both input and output directives
+     there is only one widely used input output directive called
+     ngModel
+
+     to use ngModel we need to import a module called FormsModule
+
+     how it works?
+
+     usually we use ngModel in form elements
+
+     <input type="text" [(ngModel)]="firstname">
+
+     if firstname has value Raj ..raj will be filled in the textbox
+
+     if you type Rahul in the textbox it will stored to firstnam

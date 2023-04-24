@@ -1,0 +1,20 @@
+.service-box{
+    height:250px;
+    width: 320px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(43, 86, 37);
+    color: rgb(246, 246, 242);
+    float: left;
+    background-image: url("http://localhost/dollar.jpg");
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(165, 165, 165);
+}
