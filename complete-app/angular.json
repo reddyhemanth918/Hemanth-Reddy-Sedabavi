@@ -26,6 +26,7 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
+<<<<<<< HEAD
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
@@ -33,6 +34,11 @@
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
+=======
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> dd3852e277864969d95915caf7d3f3a84feb512f
           },
           "configurations": {
             "production": {
@@ -93,6 +99,7 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
+<<<<<<< HEAD
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
@@ -100,12 +107,23 @@
                 "./node_modules/jquery/dist/jquery.min.js",
                 "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
+=======
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> dd3852e277864969d95915caf7d3f3a84feb512f
           }
         }
       }
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "247c0b90-638c-4919-9408-bdd942741741"
   }
 }
+=======
+    "analytics": "a72da711-8e8f-418f-a94e-90dad2a8a752"
+  }
+}
+>>>>>>> dd3852e277864969d95915caf7d3f3a84feb512f
